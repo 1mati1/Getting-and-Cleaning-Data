@@ -2,7 +2,7 @@
 
 run_analysis.R works as described below:
 
-Itcreates the uci_har folder in working directrory and puts the downloaded uci_har dataset zip file in it, where later the dataset is unziped.
+It creates the uci_har folder in working directrory and puts the downloaded uci_har dataset zip file in it, where later the dataset is unziped.
 After loading the train and test data sets, using rbind, join the two datasets into one data frame.
 Later it calculates the mean and standard deviation from the features data set.
 After cleaning the column names, these are applied to the x data frame.
